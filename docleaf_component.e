@@ -1,29 +1,25 @@
 note
-	description: "Summary description for {DOCLEAF_COMPONENT}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
+	description: "Parent for Pageelements"
+	author: "Cred IT"
 
-deferred class -- deferred class?
-	DOCLEAF_COMPONENT -- better name?
+deferred class
+	DOCLEAF_COMPONENT
 
-inherit
-	HTMLGEN
 
 feature
     content: STRING
 
     size: INTEGER
 
-    is_empty:BOOLEAN
+    is_empty: BOOLEAN
 
     parent: detachable DOCLEAF_COMPONENT
 
 feature {DOCLEAF_COMPONENT}
 
-    set_parent(dc:DOCLEAF_COMPONENT)
+    set_parent(dc: DOCLEAF_COMPONENT)
         do
-        	parent:=dc
+        	parent:= dc
         end
 
 end
