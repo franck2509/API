@@ -4,8 +4,8 @@ note
 	date: "$Date$"
 	revision: "$Revision$"
 
-deferred class -- deferred class?
-	DS_DOC -- better name?
+deferred class
+	DS_DOC
 
 inherit
 
@@ -16,22 +16,26 @@ feature
 
 
 	size:INTEGER
-	   require
 
 
     is_empty:BOOLEAN
 
-	add_entry(dc:DOCLEAF_COMPONENT)
+	add_entry(dc: DOCLEAF_COMPONENT)
 	    require
 	    	dc.parent=Void
 	    	dc.is_empty=False
+	    deferred
+
 	    ensure
 	    	updated:size=old size+dc.size
+	    end
 
-	output(dc:DOCLEAF_COMPONENT)
+	output(dc: DOCLEAF_COMPONENT)
 	    require
 	    	dc.parent=Void
 	    	dc.is_empty=False
+	    deferred
+	    end
 
 
 end
