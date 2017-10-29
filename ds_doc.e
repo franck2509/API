@@ -1,7 +1,6 @@
 note
 	description: "Summary description for {DS_DOC}."
-	author: "wq"
-
+	author: "Cred IT"
 
 
 deferred class
