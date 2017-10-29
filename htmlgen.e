@@ -8,7 +8,7 @@ class
 inherit
 	ARGUMENTS
 
-create
+create -- this will run the application
 	make
 
 feature
