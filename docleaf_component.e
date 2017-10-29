@@ -1,8 +1,6 @@
 note
 	description: "Summary description for {DOCLEAF_COMPONENT}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
+	author: "Cred IT"
 
 deferred class
 	DOCLEAF_COMPONENT
