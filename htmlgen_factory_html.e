@@ -84,7 +84,7 @@ feature																	-- 	0	Explanation: override of the methods declared in H
 		local
 			new_orderedList: LIST_HTML
 		do
-			create new_orderedList.make list)
+			create new_orderedList.make (list)
 			Result := new_orderedList
 		end
 
