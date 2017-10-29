@@ -1,8 +1,6 @@
 note
 	description: "Summary description for {HTMLGEN_FACTORY_HTML}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
+	author: "Cred IT"
 
 class
 	HTMLGEN_FACTORY_HTML
@@ -14,7 +12,7 @@ create
 	default_create -- unclear what this does
 	-- use make ?
 
-feature																	-- 	0	Explanation: override of the methods declared in HTMLGEN_FACTORY
+feature	-- call all the functions here to design document in HTML														-- 	0	Explanation: override of the methods declared in HTMLGEN_FACTORY
 	set_title (title: STRING): TITLE									-- 	1	methodname (input): "Return certain abstract version of that [title]"
 		local															-- 	2	local = in this class
 			new_title: TITLE_HTML										-- 	3	local variable returns due to polymorphism from TITLE_HTML
