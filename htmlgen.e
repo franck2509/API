@@ -1,7 +1,6 @@
 note
 	description: "projectHTMLGen application root class"
-	date: "$Date$"
-	revision: "$Revision$"
+	author: "Cred IT"
 
 class
 	HTMLGEN
