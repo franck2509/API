@@ -1,10 +1,6 @@
--- explain in comments how it should work
-
 note
 	description: "Summary description for {TUTORIAL}."
-	author: ""
-	date: "$Date$"
-	revision: "$Revision$"
+	author: "Cred IT"
 
 class
 	TUTORIAL
@@ -12,7 +8,7 @@ class
 inherit
 	HTMLGEN
 
-create
+create -- will display all the available functions to the user
 	showhelp
 
 feature {NONE}
