@@ -96,5 +96,19 @@ feature																	-- 	0	Explanation: override of the methods declared in H
 			Result := new_snippet
 		end
 
+	add_homeurl (url: STRING): URL_HOME
+		local
+			new_url: URL_HOME_HTML
+		do
+			create new_url.make (url)
+			Result := new_url
+		end
 
+	add_document (document: STRING): DS_DOC
+			local
+				new_document: DOC_HTML
+			do
+				create new_document.make (document)
+				Result := new_document
+			end
 end

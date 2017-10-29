@@ -7,6 +7,8 @@ note
 deferred class
 	DOCLEAF_COMPONENT
 
+inherit
+	HTMLGEN
 
 feature
     content: STRING deferred end

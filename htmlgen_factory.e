@@ -9,7 +9,7 @@ deferred class
 inherit
  	HTMLGEN
 
--- !!!! All the Return Values must be updated !!!!
+
 feature  -- Initialization
 
 	set_title (title: STRING): TITLE
@@ -52,4 +52,11 @@ feature  -- Initialization
 		deferred
 		end
 
+	add_homeurl (url: STRING): URL_HOME
+		deferred
+		end
+
+	add_doc (document: STRING): DS_DOC
+		deferred
+		end
 end

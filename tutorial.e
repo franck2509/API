@@ -10,7 +10,7 @@ class
 	TUTORIAL
 
 inherit
-	SUPPORT
+	HTMLGEN
 
 create
 	showhelp

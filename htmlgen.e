@@ -6,17 +6,13 @@ note
 class
 	HTMLGEN
 
+inherit
+	ARGUMENTS
+
 create
 	make
 
-feature  -- Initialization
+feature
 
-	make
-
-		add_document (document: STRING): DS_DOC
-			do
-				create new_document.make (document)
-				Result := new_document
-			end
 
 end
