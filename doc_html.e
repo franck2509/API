@@ -1,6 +1,6 @@
 note
 	description: "Summary description for {DOC_HTML}."
-	author: "wq"
+	author: "Cred IT"
 
 deferred class
 	DOC_HTML
