@@ -10,7 +10,7 @@ inherit
  	HTMLGEN
 
 
-feature  -- Initialization
+feature  -- Initialization & one can add different format factories here
 
 	set_title (title: STRING): TITLE
 		deferred
