@@ -1,8 +1,7 @@
 note
-	description: "Abstr_Fact application root class"
-	date: "$Date$"
-	revision: "$Revision$"
-
+	description: "Abstract_Factory application root class"
+	author: "Cred IT"
+	
 deferred class
 	HTMLGEN_FACTORY
 
